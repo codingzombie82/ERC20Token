@@ -2,11 +2,18 @@ const MyToken = artifacts.require("MyToken");
 
 module.exports = function(deployer) {
 
-  const _name = 'VAN PROTOCOL1';
-  const _symbole = "VANP1";
-  const _decimals = 18;
-  const _supply = 500000000;
+
 //MyToken.deployed().then((instance)=>{VANP=instance;})
 //https://medium.com/returnvalues/developing-smart-contracts-erc20-token-fdae78ce7d7a
-  deployer.deploy(MyToken, _name, _symbole, _decimals, _supply);
+//truffle migrate --network ropsten
+//truffle console --network ropsten
+  deployer.deploy(MyToken);
 };
+
+
+// 1) truffle compile all
+// 2) truffle migrate --network ropsten --reset
+// 3) truffle console --network ropsten
+// 4) npm i truffle-flattener --save
+//truffle-flattener
+//truffle-flattener .\contracts\MyToken.sol > MySole.sol

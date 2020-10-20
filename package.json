@@ -26,5 +26,7 @@
     "chai-bignumber": "^3.0.0",
     "openzeppelin-solidity": "^2.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "truffle-flattener": "^1.5.0"
+  }
 }
