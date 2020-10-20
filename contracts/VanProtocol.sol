@@ -3,7 +3,7 @@ import "../node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 import "../node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
 import "./Ownable.sol";
 
-contract MyToken is ERC20, Ownable, ERC20Detailed {
+contract VanProtocol is ERC20, Ownable, ERC20Detailed {
 
     string private constant _name = "Van Protocol";
     string private constant _symbol = "VANP";
