@@ -1,4 +1,4 @@
-const MyToken = artifacts.require("MyToken");
+const VanProtocol = artifacts.require("VanProtocol");
 
 module.exports = function(deployer) {
 
@@ -7,7 +7,7 @@ module.exports = function(deployer) {
 //https://medium.com/returnvalues/developing-smart-contracts-erc20-token-fdae78ce7d7a
 //truffle migrate --network ropsten
 //truffle console --network ropsten
-  deployer.deploy(MyToken);
+  deployer.deploy(VanProtocol);
 };
 
 
